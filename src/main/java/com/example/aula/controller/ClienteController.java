@@ -23,7 +23,6 @@ import com.example.aula.service.ClienteService;
 
 @RestController
 @RequestMapping("/clientes")
-@CrossOrigin("*")
 public class ClienteController {
 
     @Autowired
